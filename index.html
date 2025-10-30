@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MicroWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="browser-window">
+  <div class="browser-top">
+    <div class="tab">MicroWeb</div>
+  </div>
+
+  <div class="controls">
+    <button id="back">◀</button>
+    <button id="forward">▶</button>
+    <input type="text" id="url" placeholder="Enter URL (ex: https://example.com)">
+    <button id="go">Go</button>
+  </div>
+
+  <iframe id="display" src="https://example.com"></iframe>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
